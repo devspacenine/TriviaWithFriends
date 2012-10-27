@@ -1,0 +1,15 @@
+<div class="control-group{%if field.error%} error{%endif%}"> 
+    <label class="control-label">{{field.label}}</label>
+    <div class="controls">
+        {% for option in field.options %}
+        <label class="checkbox">
+            <input type="checkbox" name="{{field.name}}" value="{{option.value}}"{%if option.selected%} checked="checked"{%endif%} />
+            {{option.label}}
+        </label>
+        {% endfor %}
+        
+        {% if field.error %}
+        <span class="control-error">{{field.error}}</span>
+        {% endif %}
+    </div>
+</div>

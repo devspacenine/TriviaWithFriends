@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block canonical %}
+<link rel="canonical" href="{{BASE_URL}}/register/"/>
+{% endblock %}
+
+{% block meta %}
+{% endblock %}
+
+{% block content %}
+
+<form id="register-form" method="post" action="/register/">
+
+  <label for="id_username">Username</label>
+  <input type="text" id="id_username" name="username" />
+
+  <label for="id_password">Password</label>
+  <input type="text" id="id_password" name="password" />
+
+</form>
+
+{% endblock %}
+
+<script type="text/javascript">
+{% block script %}
+{% endblock %}
+</script>

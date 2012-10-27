@@ -1,0 +1,5 @@
+<div class="form-actions">
+  {% for button in buttons %}
+  <button {%if button.type%}type="{{button.type}}"{%endif%} class="btn {{button.class}}">{{button.label}}</button>
+  {% endfor %}
+</div>

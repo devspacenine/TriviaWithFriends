@@ -1,0 +1,71 @@
+{
+  "name": "TriviaWithFriends",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "3.x.x",
+    "mongodb": "1.x.x",
+    "mongoose": "3.x.x",
+    "mongoose-3x-types": "1.x.x",
+    "mongoose-types": "1.x.x",
+    "mongoose-attachments": "0.0.2",
+    "mongoose-validator": " 0.x.x",
+    "passport": "0.x.x",
+    "passport-local": "0.x.x",
+    "passport-facebook": "0.x.x",
+    "passport-google": "0.x.x",
+    "express-helpers": "1.x.x",
+    "swig": "0.x.x",
+    "kiwi": "0.x.x",
+    "nunjucks": "0.x.x",
+    "consolidate": "0.x.x",
+    "xtend": "1.x.x",
+    "jquery-deferred": "0.x.x",
+    "memcached": "0.x.x",
+    "underscore": "1.x.x",
+    "formidable": "1.x.x",
+    "async": "0.x.x",
+    "node-uuid": "1.x.x",
+    "email": "0.x.x",
+    "validator": "0.x.x",
+    "sugar": "1.x.x",
+    "nodemailer": "0.x.x",
+    "less": "1.3.x"
+  },
+  "engine": "node >= 0.8.1",
+  "description": "A multiplayer trivia mobile application using PhoneGap.",
+  "main": "server.js",
+  "devDependencies": {},
+  "keywords": [
+      "trivia",
+      "quizes",
+      "quiz",
+      "game",
+      "friends",
+      "multiplayer",
+      "contests",
+      "competitions",
+      "games",
+      "brain teasers",
+      "brain excercise",
+      "questions"
+  ],
+  "author": {
+  	"name": "Corey Pauley",
+	"email": "corey.pauley@imaginuity.com"
+  },
+  "contributors": [
+  	{
+		"name": "Corey Pauley",
+		"email": "corey.pauley@imaginuity.com"
+	},
+    {
+        "name": "John Macon",
+        "email": "jcmacon@gmail.com"
+    }
+  ],
+  "license": "BSD"
+}

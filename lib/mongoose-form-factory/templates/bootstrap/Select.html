@@ -1,0 +1,18 @@
+<div class="control-group{%if field.error%} error{%endif%}"> 
+    <label for="id_{{field.name}}" class="control-label">{{field.label}}</label>
+    <div class="controls">
+        <select id="id_{{field.name}}" class="{{field.class}}" name="{{field.name}}">
+            {% for option in field.options %}
+            <option value="{{option.value}}"{%if option.selected%} selected="selected"{%endif%}>{{option.label}}</option>
+            {% endfor %}
+        </select>
+    
+        {% if field.error %}
+        <span class="control-error">{{field.error}}</span>
+        {% else %}
+            {% if field.helpInline %}
+                <span class="help-inline">{{field.helpInline}}</span>
+            {% endif %}
+        {% endif %}
+    </div>
+</div>

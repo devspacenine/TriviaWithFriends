@@ -1,0 +1,10 @@
+<div class="control-group{%if field.error%} error{%endif%}"> 
+  <label for="id_{{field.name}}" class="control-label">{{field.label}}</label>
+  <div class="controls">
+    <input id="id_{{field.name}}" type="button" name="{{field.name}}" value="{{field.value}}" class="{{field.class}}" />
+
+    {% if field.error %}
+    <span class="control-error">{{field.error}}</span>
+    {% endif %}
+  </div>
+</div>

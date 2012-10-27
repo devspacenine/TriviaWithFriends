@@ -1,0 +1,9 @@
+<form class="{{options.class}}" method="{{options.method}}" action="{{options.action}}" {{#if options.enctype}}enctype="{{options.enctype}}"{{/if}}>
+{{#if options.legend}}
+	<legend>
+		{{options.legend}}
+	</legend>
+{{/if}}
+
+	{{{body}}}
+</form>
